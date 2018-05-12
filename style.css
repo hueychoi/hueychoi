@@ -1,0 +1,61 @@
+.cal_wrapper {
+max-width: 960px;
+min-width: 300px;
+margin: 2.0833% auto;
+}
+.googlecal {
+position: relative;
+padding-bottom: 100%;
+height: 0;
+}
+.googlecal iframe {
+position: relative;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+@media only screen and (min-width: 768px) {
+.googlecal { padding-bottom: 75%; }
+}
+
+.container { position: relative; width: 60%; height: auto !important; height: 60%; min-height: 60%; }
+
+@-ms-viewport{
+  width: device-width;
+}
+
+1
+2
+3
+@font-face {
+  font-family: 'Brandon Grotesque_thin';
+  src: url('Brandon Grotesque_thin.otf') format('otf');
+
+  body {
+    font-family: Brandon Grotesque_thin, 'Brandon Grotesque_thin', sans-serif;
+      font-size: 15px;
+    margin:0 auto;
+    font-size:15px;
+    color: #646464;
+    }
+
+.youtube iframe{
+  width: 100%;
+}
+
+.youtube iframe{
+  width: 100%;
+}
+
+    #container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background: url('https://s20.postimg.org/o09gf7fvx/bag.jpg') no-repeat center top;
+    background-size: contain;
+}
+
+#dummy {
+    padding-top: 29%;
+}
