@@ -21,6 +21,10 @@ height: 100% !important;
 
 .container { position: relative; width: 60%; height: auto !important; height: 60%; min-height: 60%; }
 
+@-ms-viewport{
+  width: device-width;
+}
+
 1
 2
 3
