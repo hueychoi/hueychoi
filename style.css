@@ -27,3 +27,11 @@ height: 100% !important;
 @font-face {
   font-family: 'Brandon Grotesque_thin';
   src: url('Brandon Grotesque_thin.otf') format('otf');
+
+  body {
+    font-family: Brandon Grotesque_thin, 'Brandon Grotesque_thin', sans-serif;
+      font-size: 15px;
+    margin:0 auto;
+    font-size:15px;
+    color: #646464;
+    }
