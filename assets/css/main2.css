@@ -2199,6 +2199,7 @@
 		position: relative;
 	}
 
+/*fontawesome*/
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -2265,6 +2266,7 @@
 			position: relative;
 		}
 
+/*fontawesome*/
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
@@ -2397,6 +2399,7 @@
 		position: relative;
 	}
 
+/*fontawesome*/
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -2942,6 +2945,7 @@
 			padding: 0 1.75rem;
 		}
 
+/*fontawesome*/
 			.pagination .next:before, .pagination .previous:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
@@ -4307,6 +4311,7 @@
 		z-index: 10001;
 	}
 
+/*fontawesome*/
 		#navPanelToggle:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -4421,6 +4426,7 @@
 			width: 7rem;
 		}
 
+/*fontawesome*/
 			#navPanel .close:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
