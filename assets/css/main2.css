@@ -1672,7 +1672,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Brandon Grotesque_thin", Georgia, serif;
+		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 2.375;
@@ -1705,7 +1705,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Brandon Grotesque_thin", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -1769,7 +1769,7 @@
 
 	code {
 		border: solid 2px;
-		font-family: "Brandon Grotesque_thin", monospace;
+		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
@@ -1777,7 +1777,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Brandon Grotesque_thin", monospace;
+		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
 	}
@@ -1888,7 +1888,7 @@
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Brandon Grotesque_thin", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -2149,7 +2149,7 @@
 
 	label {
 		display: block;
-		font-family: "Brandon Grotesque_thin", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -2202,7 +2202,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: Brandon Grotesque_thin;
+			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2257,7 +2257,7 @@
 			display: inline-block;
 			font-size: 1rem;
 			letter-spacing: 0;
-			font-family: "Brandon Grotesque_thin", Georgia, serif;
+			font-family: "Merriweather", Georgia, serif;
 			text-transform: none;
 			font-weight: 300;
 			padding-left: 2.8rem;
@@ -2269,7 +2269,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: Brandon Grotesque_thin;
+				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2400,7 +2400,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: Brandon Grotesque_thin;
+			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2826,7 +2826,7 @@
 		}
 
 		table th {
-			font-family: "Brandon Grotesque_thin", Helvetica, sans-serif;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 0.8rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -2923,7 +2923,7 @@
 			transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 			border: solid 2px;
 			display: inline-block;
-			font-family: "Brandon Grotesque_thin", Helvetica, sans-serif;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 0.8rem;
 			font-weight: 900;
 			height: 3rem;
@@ -2945,7 +2945,7 @@
 			.pagination .next:before, .pagination .previous:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: Brandon Grotesque_thin;
+				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -3372,7 +3372,7 @@
 			border-style: solid;
 			border-color: #ffffff;
 			border-width: 5px !important;
-			font-family: "Brandon Grotesque_thin", Helvetica, sans-serif;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -3497,7 +3497,7 @@
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			font-family: "Brandon Grotesque_thin", Helvetica, sans-serif;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			list-style: none;
@@ -4188,7 +4188,7 @@
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
-		font-family: "Brandon Grotesque_thin", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -4298,7 +4298,7 @@
 		right: 0.75rem;
 		border: 0;
 		color: #ffffff;
-		font-family: "Brandon Grotesque_thin", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -4310,7 +4310,7 @@
 		#navPanelToggle:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: Brandon Grotesque_thin;
+			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -4386,7 +4386,7 @@
 				#navPanel .links li a {
 					border-bottom: 0;
 					display: block;
-					font-family: "Brandon Grotesque_thin", Helvetica, sans-serif;
+					font-family: "Source Sans Pro", Helvetica, sans-serif;
 					font-size: 0.9rem;
 					font-size: 0.9rem;
 					font-weight: 900;
@@ -4424,7 +4424,7 @@
 			#navPanel .close:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: Brandon Grotesque_thin;
+				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
