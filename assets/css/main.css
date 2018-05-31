@@ -2063,7 +2063,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		width: calc(100% + 3rem);
+		width: calc(100%);
 		margin: -1.5rem 0 2rem -1.5rem;
 	}
 
