@@ -2661,7 +2661,7 @@
 						}
 
 							ul.actions li > *.icon:before {
-								margin-left: -2rem;
+								margin-left: 0rem;
 							}
 
 					ul.actions.small li {
