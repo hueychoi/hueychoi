@@ -2064,7 +2064,7 @@
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		width: calc(100%);
-		margin: -1.5rem 0 2rem -1.5rem;
+		margin: 1rem 0 2rem -1.5rem;
 	}
 
 		form > .field {
@@ -4479,4 +4479,8 @@
 			visibility: visible;
 		}
 
+	}
+
+	#footer .no-gutters form .send{
+		margin-top: 1rem;
 	}
