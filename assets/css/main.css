@@ -321,7 +321,7 @@
 		}
 
 		.row {
-			margin: 0 0 -1px -1.5rem;
+			margin: 0 0 -1px 1rem;
 		}
 
 		.row.uniform > * {
@@ -536,7 +536,7 @@
 		}
 
 		.row {
-			margin: 0 0 -1px -1.5rem;
+			margin: 0 0 -1px 1rem;
 		}
 
 		.row.uniform > * {
@@ -751,7 +751,7 @@
 		}
 
 		.row {
-			margin: 0 0 -1px -1.5rem;
+			margin: 0 0 -1px 1rem;
 		}
 
 		.row.uniform > * {
@@ -966,7 +966,7 @@
 		}
 
 		.row {
-			margin: 0 0 -1px -1.5rem;
+			margin: 0 0 -1px 1rem;
 		}
 
 		.row.uniform > * {
@@ -1181,7 +1181,7 @@
 		}
 
 		.row {
-			margin: 0 0 -1px -1.5rem;
+			margin: 0 0 -1px 1rem;
 		}
 
 		.row.uniform > * {
@@ -1396,7 +1396,7 @@
 		}
 
 		.row {
-			margin: 0 0 -1px -1.5rem;
+			margin: 0 0 -1px 1rem;
 		}
 
 		.row.uniform > * {
@@ -2119,8 +2119,8 @@
 		@media screen and (max-width: 480px) {
 
 			form {
-				width: calc(100% + 3rem);
-				margin: -1.5rem 0 2rem -1.5rem;
+				width: calc(100%);
+				margin: 1rem 0 2rem -1.5rem;
 			}
 
 				form > .field {
