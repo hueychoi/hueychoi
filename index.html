@@ -126,6 +126,27 @@
 			                </ul>
             			</script>
 
+            			<script>
+			                function filterRSS(data) {
+			                    for (var i = 0; i < data.query.results.entry.length; ++i) {
+			                        var date = new Date(data.query.results.entry[i].published);
+			                        data.query.results.entry[i].published = date.getFullYear() + '年' + (date.getMonth() + 1) + '月' + date.getDate() + '日';
+			                    }
+			                    return data;
+			                }
+			            </script>
+			            <script src="https://i.yimg.jp/images/yjdn/js/bakusoku-yql-v1-min.js"
+			                data-yql="select * from feed (0, 3) where url='http://hueychoi.hatenablog.com/feed'" data-filter="filterRSS">
+			                <ul>
+			                    {{#query.results.entry}}
+			                    <li>
+			                        {{published}}<br>
+			                        <a href="{{link.0.href}}" target="_blank">{{title}}</a>
+			                    </li>
+			                    {{/query.results.entry}}
+			                </ul>
+			            </script>
+
 
 							<section class="posts">
 								<article>
