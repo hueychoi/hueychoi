@@ -114,6 +114,19 @@
 							</article>
 
 						<!-- Posts -->
+						<script src="https://i.yimg.jp/images/yjdn/js/bakusoku-yql-v1-min.js"
+                				data-url="http://hueychoi.hatenablog.com/entry/2018/06/02/014532">
+			                <ul>
+			                    {{#query.results.entry}}
+			                    <li>
+			                        {{published}}<br>
+			                        <a href="{{link.0.href}}" target="_blank">{{title}}</a>
+			                    </li>
+			                    {{/query.results.entry}}
+			                </ul>
+            			</script>
+
+
 							<section class="posts">
 								<article>
 									<header>
