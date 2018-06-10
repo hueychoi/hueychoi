@@ -61,12 +61,37 @@
 
 								<p>こちらの実験は、30曲（各15秒）を聴いていただき、3つのカテゴリに分けて頂く実験に参加していただきたい。<br>
 									<br>各カテゴリは以下の3つである<br>
-									<br>①Breakfast Coffee<br>
-									<br>②Afternoon Tea<br>
-									<br>③Dine & Wine<br>
+									①Breakfast Coffee<br>
+									②Afternoon Tea<br>
+									③Dine & Wine<br>
+
+									動画はそれぞれ15秒が経過したら自動的に再生が停止する様になっているので、動画再生後15秒後=動画が止まったときにフォームに回答していただきたい。<br>
+
+
 
 
 								<iframe width="560" height="315" src="https://www.youtube.com/embed/nqnkBdExjws?start=13&end=28" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+								<form name="contactform" action="thanks" netlify>
+								  <p>
+								    <label>Your Name: <input type="text" name="name"></label>
+								  </p>
+								  <p>
+								    <label>Your Email: <input type="email" name="email"></label>
+								  </p>
+								  <p>
+								    <label><input type="radio" name="food" value="①Breakfast Coffee">①Breakfast Coffee</label>
+								    <label><input type="radio" name="food" value="②Afternoon Tea">②Afternoon Tea</label>
+								    <label><input type="radio" name="food" value="③Dine & Wine">③Dine & Wine</label>
+								    <label><input type="radio" name="food" value="④None of the above">④None of the above</label>
+								  </p>
+								  <p>
+								    <label>Message: <textarea name="message"></textarea></label>
+								  </p>
+								  <p>
+								    <button type="submit">Send</button>
+								  </p>
+								</form>
 
 								  <select name="カテゴリ">
 								    <option>①Breakfast Coffee</option>
