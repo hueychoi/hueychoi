@@ -42,6 +42,18 @@
 														<title>Example</title>
 													</head>
 													<body>
+																									
+											            <script src="https://i.yimg.jp/images/yjdn/js/bakusoku-yql-v1-min.js"
+											                data-url="http://hueychoi.hatenablog.com/">
+											                <ul>
+											                    {{#query.results.entry}}
+											                    <li>
+											                        {{published}}<br>
+											                        <a href="{{link.0.href}}" target="_blank">{{title}}</a>
+											                    </li>
+											                    {{/query.results.entry}}
+											                </ul>
+											            </script>
 														<script type="text/javascript">
 														document.write ('<p>Current time is: <br><span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
 														if (document.getElementById) onload = function () {
