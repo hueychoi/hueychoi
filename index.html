@@ -1,3 +1,19 @@
+<?php require_once ('./wordpress/wp-load.php'); ?>
+
+<ul>
+  <?php
+    $posts = get_posts('numberposts=5&category=1');
+    global $post;
+    ?>
+  <?php
+    if($posts): foreach($posts as $post): setup_postdata($post); ?>
+  <li><a href="<?php the_permalink();?>">
+    <?php the_time( 'Y/m/d' ); ?>:<br /> 「<?php the_title(); ?>」
+    </a></li>
+  <?php endforeach; endif;
+    ?>
+</ul>
+
 <!DOCTYPE HTML>
 
 <span style="font-family: 'Brandon Grotesque_thin';"</span>
@@ -135,17 +151,12 @@
 			                    return data;
 			                }
 			            </script>
-			            <script src="https://i.yimg.jp/images/yjdn/js/bakusoku-yql-v1-min.js"
-			                data-yql="select * from feed (0, 3) where url='https://hueychoi.wordpress.com/blog'" data-filter="filterRSS">
-			                <ul>
-			                    {{#query.results.entry}}
-			                    <li>
-			                        {{published}}<br>
-			                        <a href="{{link.0.href}}" target="_blank">{{title}}</a>
-			                    </li>
-			                    {{/query.results.entry}}
-			                </ul>
-			            </script>
+			            <section class="post">
+								<header class="major">
+									<h1>Other Blogs</h1>
+									<p>ブログ記事はこちらで管理しています。</p>
+									<a href="https://hueychoi.wordpress.com" class="logo">HueyBlogs</a>
+								</header>
 
 
 							<section class="posts">
