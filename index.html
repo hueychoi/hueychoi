@@ -42,9 +42,19 @@
 														<title>Example</title>
 													</head>
 													<body>
-																									
+
+											            <script>
+											                function filterRSS(data) {
+											                    for (var i = 0; i < data.query.results.entry.length; ++i) {
+											                        var date = new Date(data.query.results.entry[i].published);
+											                        data.query.results.entry[i].published = date.getFullYear() + '年' + (date.getMonth() + 1) + '月' + date.getDate() + '日';
+											                    }
+											                    return data;
+											                }
+											            </script>
 											            <script src="https://i.yimg.jp/images/yjdn/js/bakusoku-yql-v1-min.js"
-											                data-url="http://hueychoi.hatenablog.com/">
+											                data-url="http://hueychoi.hatenablog.com/feed"
+											                data-filter="filterRSS">
 											                <ul>
 											                    {{#query.results.entry}}
 											                    <li>
@@ -54,6 +64,7 @@
 											                    {{/query.results.entry}}
 											                </ul>
 											            </script>
+
 														<script type="text/javascript">
 														document.write ('<p>Current time is: <br><span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
 														if (document.getElementById) onload = function () {
